@@ -13,7 +13,7 @@ print(counter)
 #    for j in range(len(a)):
 #        if i != j and a[i] == a[j]:
 #            num_equal_pairs += 1
-#print(int(num_equal_pairs / 2))
+#print(num_equal_pairs // 2)
 
 
 #a = [int(i) for i in input().split()]
@@ -22,4 +22,4 @@ print(counter)
 #    for j in range(len(a)):
 #        if a[i] == a[j]:
 #            num_equal_pairs += 1
-#print(int((num_equal_pairs - len(a))/2))
+#print((num_equal_pairs - len(a)) // 2)
