@@ -7,4 +7,4 @@ for i in range(n):
     a[i][i] = '*'
     a[n-i-1][i] = '*'
 for row in a:
-    print(' '.join([str(elem) for elem in row]))
+    print(' '.join(row))
