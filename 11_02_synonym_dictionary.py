@@ -8,14 +8,14 @@ for i in range(n):
 print(d[input()])
 
 # my solution
-n = int(input())
-synonyms = {}
-for i in range(n):
-    pair = input().split()
-    synonyms[pair[0]] = pair[1]
-word = input()
-for key in synonyms:
-    if key == word:
-        print(synonyms[key])
-    if synonyms[key] == word:
-        print(key)
+#n = int(input())
+#synonyms = {}
+#for i in range(n):
+#    pair = input().split()
+#    synonyms[pair[0]] = pair[1]
+#word = input()
+#for key in synonyms:
+#    if key == word:
+#        print(synonyms[key])
+#    if synonyms[key] == word:
+#        print(key)
