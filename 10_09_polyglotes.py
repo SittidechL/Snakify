@@ -12,7 +12,7 @@ inter = set.intersection(*langs)
 print(len(inter), '\n'.join(sorted(inter)), len(uni), '\n'.join(sorted(uni)), sep='\n')
 
 # developers solution
-#students = [{input() for j in range(int(input()))} for i in range(int(input()))]
-#known_by_everyone, known_by_someone = set.intersection(*students), set.union(*students)
-#print(len(known_by_everyone), *sorted(known_by_everyone), sep='\n')
-#print(len(known_by_someone), *sorted(known_by_someone), sep='\n')
+# students = [{input() for j in range(int(input()))} for i in range(int(input()))]
+# known_by_everyone, known_by_someone = set.intersection(*students), set.union(*students)
+# print(len(known_by_everyone), *sorted(known_by_everyone), sep='\n')
+# print(len(known_by_someone), *sorted(known_by_someone), sep='\n')

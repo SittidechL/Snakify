@@ -15,11 +15,11 @@ while True:
         
 print(' '.join([str(x) for x in sorted(possible_nums)]))
 
-#my wrong solution
-#n = int(input())
-#a = [i for i in range(1,n+1)]
-#s = set(a)
-#while True:
+# my wrong solution
+# n = int(input())
+# a = [i for i in range(1,n+1)]
+# s = set(a)
+# while True:
 #    guess = input()
 #    if guess == 'HELP':
 #        break
@@ -29,4 +29,4 @@ print(' '.join([str(x) for x in sorted(possible_nums)]))
 #    else:
 #        s -= set(guess.split())
 #        print('NO')
-#print(' '.join([str(i) for i in list(s)]))
+# print(' '.join([str(i) for i in list(s)]))
